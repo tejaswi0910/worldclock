@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
         child: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage(bgimg),
+              image: AssetImage('assets/${bgimg}'),
               fit: BoxFit.cover, // This should be inside DecorationImage
             ),
           ),
