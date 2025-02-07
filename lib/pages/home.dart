@@ -16,7 +16,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     data = data.isNotEmpty ? data : ModalRoute.of(context)!.settings.arguments as Map;
 
-    String bgimg = data['isDayTime'] ? 'day.jpg' : 'night.jpg';
+    String bgimg = data['isDayTime'] ? 'day.png' : 'night.png';
 
     return Scaffold(
       body: SafeArea(
